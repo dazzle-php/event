@@ -1,4 +1,4 @@
-# Dazzle Asynchronous Events & Dispatchers
+# Dazzle Async Events & Dispatchers
 
 [![Build Status](https://travis-ci.org/dazzle-php/event.svg)](https://travis-ci.org/dazzle-php/event)
 [![Code Coverage](https://scrutinizer-ci.com/g/dazzle-php/event/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/dazzle-php/event/?branch=master)
