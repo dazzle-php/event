@@ -1,25 +1,32 @@
 {
-    "name": "kraken-php/event",
-    "description": "Kraken Framework Event Component.",
+    "name": "dazzle-php/event",
+    "description": "Dazzle Asynchronous Events & Dispatchers.",
     "keywords": [
-        "kraken", "kraken-php", "event", "event-driven", "event emitter", "emitter"
+        "dazzle", "dazzle-php", "event", "event-driven", "event emitter", "emitter", "dispatch"
     ],
     "license": "MIT",
-    "homepage": "http://kraken-php.com",
     "support": {
-        "issues": "https://github.com/kraken-php/framework/issues",
-        "source": "https://github.com/kraken-php/framework"
+        "issues": "https://github.com/kraken-php/event/issues",
+        "source": "https://github.com/kraken-php/event"
     },
-    "authors": [{
-        "name": "Kamil Jamroz"
-    }],
+    "authors": [
+        {
+            "name":     "Kamil Jamroz",
+            "homepage": "https://github.com/khelle"
+        },
+        {
+            "name":     "The contributors",
+            "homepage": "http://github.com/dazzle-php/event/contributors"
+        }
+    ],
     "require": {
         "php": ">=5.6.7",
-        "kraken-php/loop": "0.4.*"
+        "dazzle-php/loop": "0.5.*"
     },
     "autoload": {
         "psr-4": {
-            "Kraken\\Event\\": "src"
+            "Dazzle\\Event\\": "src/Event",
+            "Dazzle\\Event\\Test\\": "test"
         }
     },
     "extra": {

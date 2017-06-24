@@ -1,8 +1,8 @@
 <?php
 
-namespace Kraken\Event;
+namespace Dazzle\Event;
 
-use Kraken\Loop\LoopInterface;
+use Dazzle\Loop\LoopInterface;
 
 trait EventEmitterTrait
 {

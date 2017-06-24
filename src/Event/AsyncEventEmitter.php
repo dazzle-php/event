@@ -1,9 +1,9 @@
 <?php
 
-namespace Kraken\Event;
+namespace Dazzle\Event;
 
-use Kraken\Loop\LoopAwareInterface;
-use Kraken\Loop\LoopInterface;
+use Dazzle\Loop\LoopAwareInterface;
+use Dazzle\Loop\LoopInterface;
 
 class AsyncEventEmitter implements EventEmitterInterface, LoopAwareInterface
 {

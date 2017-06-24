@@ -1,8 +1,8 @@
 <?php
 
-namespace Kraken\Event;
+namespace Dazzle\Event;
 
-use Kraken\Loop\LoopAwareTrait;
+use Dazzle\Loop\LoopAwareTrait;
 
 trait AsyncEventEmitterTrait
 {

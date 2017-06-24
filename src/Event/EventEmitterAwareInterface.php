@@ -1,6 +1,6 @@
 <?php
 
-namespace Kraken\Event;
+namespace Dazzle\Event;
 
 interface EventEmitterAwareInterface
 {
