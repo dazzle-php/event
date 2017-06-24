@@ -1,4 +1,4 @@
-# Dazzle Async Events & Dispatchers
+# Dazzle Events & Dispatchers
 
 [![Build Status](https://travis-ci.org/dazzle-php/event.svg)](https://travis-ci.org/dazzle-php/event)
 [![Code Coverage](https://scrutinizer-ci.com/g/dazzle-php/event/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/dazzle-php/event/?branch=master)
@@ -53,4 +53,3 @@ Dazzle Framework is open-sourced software licensed under the [MIT license][2].
 
 [1]: https://github.com/dazzle-php/event/blob/master/CONTRIBUTING.md
 [2]: http://opensource.org/licenses/MIT
-

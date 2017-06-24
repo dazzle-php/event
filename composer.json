@@ -1,6 +1,6 @@
 {
     "name": "dazzle-php/event",
-    "description": "Dazzle Asynchronous Events & Dispatchers.",
+    "description": "Dazzle Events & Dispatchers.",
     "keywords": [
         "dazzle", "dazzle-php", "event", "event-driven", "event emitter", "emitter", "dispatch"
     ],
