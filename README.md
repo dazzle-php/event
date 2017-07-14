@@ -11,7 +11,7 @@
 
 <br>
 <p align="center">
-<img src="https://avatars0.githubusercontent.com/u/29509136?v=3&s=150" />
+<img src="https://raw.githubusercontent.com/dazzle-php/dazzle/master/media/dazzle-x125.png" />
 </p>
 
 ## Description
