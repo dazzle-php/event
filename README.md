@@ -93,7 +93,12 @@ Versioning of Dazzle libraries is being shared between all packages included in 
 
 ## Contributing
 
-Thank you for considering contributing to this repository! The contribution guide can be found in the [contribution tips](https://github.com/dazzle-php/event/blob/master/CONTRIBUTING.md). Open tickets can be found in [issues section](https://github.com/dazzle-php/event/issues). To contact the author(s) see the information attached in [composer.json](https://github.com/dazzle-php/event/blob/master/composer.json) file.
+Thank you for considering contributing to this repository! 
+
+- The contribution guide can be found in the [contribution tips](https://github.com/dazzle-php/event/blob/master/CONTRIBUTING.md). 
+- Open tickets can be found in [issues section](https://github.com/dazzle-php/event/issues). 
+- Current contributors are listed in [graphs section](https://github.com/dazzle-php/event/graphs/contributors)
+- To contact the author(s) see the information attached in [composer.json](https://github.com/dazzle-php/event/blob/master/composer.json) file.
 
 ## License
 
