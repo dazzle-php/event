@@ -29,7 +29,9 @@ Dazzle Event features:
 * Built-in expanded interfaces for attaching listeners and managing events propagation,
 * ...and more.
 
-## Quickstart Example
+## Provided Example(s)
+
+### Quickstart
 
 ```php
 use Dazzle\Event\EventEmitter;
@@ -42,6 +44,25 @@ $emitter->on('script.start', function($user, $time) {
 
 $emitter->emit('script.start', [ get_current_user(), date('H:i:s Y-m-d') ]);
 ```
+
+### Additional
+
+Additional examples can be found in [example](https://github.com/dazzle-php/event/tree/master/example) directory. Below is the list of provided examples as a reference and preferred consumption order:
+
+- [Quickstart](https://github.com/dazzle-php/event/blob/master/example/events_quickstart.php)
+- [Using multiple listeners](https://github.com/dazzle-php/event/blob/master/example/events_handlers_multiple.php)
+- [Using disposable (one-time) listeners](https://github.com/dazzle-php/event/blob/master/example/events_handlers_disposable.php)
+- [Using delayed listeners](https://github.com/dazzle-php/event/blob/master/example/events_handlers_delayed.php)
+- [Using exact (multiple-times) listeners](https://github.com/dazzle-php/event/blob/master/example/events_handlers_exact.php)
+- [Using mixed listeners](https://github.com/dazzle-php/event/blob/master/example/events_handlers_mixed.php)
+- [Cancelling](https://github.com/dazzle-php/event/blob/master/example/events_cancelling.php)
+- [__Advanced:__ Asynchronous event-emitters](https://github.com/dazzle-php/event/blob/master/example/advanced_async_emitters.php)
+- [__Advanced:__ Copying events](https://github.com/dazzle-php/event/blob/master/example/advanced_flow_copying_events.php)
+- [__Advanced:__ Forwarding events](https://github.com/dazzle-php/event/blob/master/example/advanced_flow_forwarding_events.php)
+- [__Advanced:__ Chaining events propagation](https://github.com/dazzle-php/event/blob/master/example/advanced_flow_chaining.php)
+- [__Advanced:__ Switching propagation modes of event-emitters](https://github.com/dazzle-php/event/blob/master/example/advanced_flow_switching_modes.php)
+
+If any of the above examples has left you confused, please take a look in the [tests](https://github.com/dazzle-php/event/tree/master/test) directory as well.
 
 ## Requirements
 
