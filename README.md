@@ -29,6 +29,20 @@ Dazzle Event features:
 * Built-in expanded interfaces for attaching listeners and managing events propagation,
 * ...and more.
 
+## Quickstart Example
+
+```php
+use Dazzle\Event\EventEmitter;
+
+$emitter = new EventEmitter();
+
+$emitter->on('script.start', function($user, $time) {
+    echo "User '$user' has started this script at $time.\n";
+});
+
+$emitter->emit('script.start', [ get_current_user(), date('H:i:s Y-m-d') ]);
+```
+
 ## Requirements
 
 Dazzle Event requires:
