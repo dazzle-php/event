@@ -5,24 +5,24 @@ namespace Dazzle\Event;
 class EventListener
 {
     /**
+     * @var string
+     */
+    public $event;
+
+    /**
+     * @var callable
+     */
+    public $handler;
+
+    /**
+     * @var callable
+     */
+    public $listener;
+
+    /**
      * @var EventEmitterInterface
      */
     private $emitter;
-
-    /**
-     * @var string
-     */
-    private $event;
-
-    /**
-     * @var callable
-     */
-    private $handler;
-
-    /**
-     * @var callable
-     */
-    private $listener;
 
     /**
      * @param EventEmitterInterface $emitter

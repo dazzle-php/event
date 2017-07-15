@@ -231,7 +231,8 @@ trait BaseEventEmitterTrait
         {
             foreach ($listeners as $eventListener)
             {
-                call_user_func_array($eventListener->getListener(), $arguments);
+                $listener = $eventListener->listener ?: function() {};
+                $listener(...$arguments);
             }
         }
 
