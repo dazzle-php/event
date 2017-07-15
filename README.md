@@ -16,13 +16,14 @@
 
 ## Description
 
-Dazzle Event provides classes to implement event-based architecture in any application.
+Dazzle Event is a library which purpose is to provide all of the tools that are required to implement event-based architecture in any application. It delivers classes and interfaces designed specifically for that exact purpose and is designed to be easy to work with, efficient and effective.
 
 ## Feature Highlights
 
-Event features:
+Dazzle Event features:
 
-* Support for working with events, dispatchers and handlers,
+* Support for working with events, event-dispatchers and event-handlers,
+* Support for synchronous events,
 * Support for asynchronous events using loop,
 * Built-in event handlers,
 * Built-in expanded interfaces for attaching listeners and managing events propagation,
@@ -30,10 +31,14 @@ Event features:
 
 ## Requirements
 
+Dazzle Event requires:
+
 * PHP-5.6 or PHP-7.0+,
 * UNIX or Windows OS.
 
 ## Installation
+
+To install this library make sure you have [composer](https://getcomposer.org/) installed, then run following command:
 
 ```
 $> composer require dazzle-php/event
@@ -41,17 +46,16 @@ $> composer require dazzle-php/event
 
 ## Tests
 
+Tests can be run via:
+
 ```
 $> vendor/bin/phpunit -d memory_limit=1024M
 ```
 
 ## Contributing
 
-Thank you for considering contributing to this repository! The contribution guide can be found in the [contribution tips][1].
+Thank you for considering contributing to this repository! The contribution guide can be found in the [contribution tips](https://github.com/dazzle-php/event/blob/master/CONTRIBUTING.md). Open tickets can be found in [issues section](https://github.com/dazzle-php/event/issues). To contact the author(s) see the information attached in [composer.json](https://github.com/dazzle-php/event/blob/master/composer.json) file.
 
 ## License
 
-Dazzle Framework is open-sourced software licensed under the [MIT license][2].
-
-[1]: https://github.com/dazzle-php/event/blob/master/CONTRIBUTING.md
-[2]: http://opensource.org/licenses/MIT
+Dazzle Framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
