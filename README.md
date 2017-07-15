@@ -59,3 +59,8 @@ Thank you for considering contributing to this repository! The contribution guid
 ## License
 
 Dazzle Framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+<hr>
+<p align="center">
+<i>"Everything is possible. The impossible just takes longer."</i> ― Dan Brown
+</p>
