@@ -87,6 +87,10 @@ Tests can be run via:
 $> vendor/bin/phpunit -d memory_limit=1024M
 ```
 
+## Versioning
+
+Versioning of Dazzle libraries is being shared between all packages included in [Dazzle Project](https://github.com/dazzle-php/dazzle). That means the releases are being made concurrently for all of them. On one hand this might lead to "empty" releases for some packages at times, but don't worry. In the end it is far much easier for contributors to maintain and -- what's the most important -- much more straight-forward for users to understand the compatibility and inter-operability of the packages.
+
 ## Contributing
 
 Thank you for considering contributing to this repository! The contribution guide can be found in the [contribution tips](https://github.com/dazzle-php/event/blob/master/CONTRIBUTING.md). Open tickets can be found in [issues section](https://github.com/dazzle-php/event/issues). To contact the author(s) see the information attached in [composer.json](https://github.com/dazzle-php/event/blob/master/composer.json) file.
