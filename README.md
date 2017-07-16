@@ -64,6 +64,50 @@ Additional examples can be found in [example](https://github.com/dazzle-php/even
 
 If any of the above examples has left you confused, please take a look in the [tests](https://github.com/dazzle-php/event/tree/master/test) directory as well.
 
+## Comparison
+
+This section contains Dazzle vs React comparison many users requested. If you are wondering why this section has been created, see the author note at the end of it.
+
+#### Performance
+
+<br>
+<p align="center">
+<img src="https://raw.githubusercontent.com/dazzle-php/dazzle/master/media/lib/event/graph-perf-cpu.png" />
+</p>
+
+The detailed information about this benchmark can be found in [benchmark-on.php](https://github.com/dazzle-php/event/blob/master/example-bench/benchmark-on.php) and [benchmark-on-react.php](https://github.com/dazzle-php/event/blob/master/example-bench/benchmark-on-react.php) files.
+
+#### Memory Allocation Efficiency
+
+<br>
+<p align="center">
+<img src="https://raw.githubusercontent.com/dazzle-php/dazzle/master/media/lib/event/graph-perf-mem.png" />
+</p>
+
+The detailed information about this benchmark can be found in [benchmark-once.php](https://github.com/dazzle-php/event/blob/master/example-bench/benchmark-once.php) and [benchmark-once-react.php](https://github.com/dazzle-php/event/blob/master/example-bench/benchmark-once-react.php) files.
+
+#### Details
+
+| Detail | Dazzle Event | React-equivalent |
+| :--- | :---: | :---: |
+| Active support | X | |
+| Provided well-formed documentation | X | X |
+| Provided well-formed set of tests with at least 80% coverage and API examples | X | X |
+| Use of events with continous listeners | X | X |
+| Use of events with single-use listeners | X | X |
+| Use of events with delayed listeners | X | |
+| Use of events with exact-time listeners | X | |
+| Use of events with mixed-type listeners | X | |
+| Cancelling listeners | X | X |
+| Asynchronous emitters | X | |
+| Copying events | X | |
+| Forwarding events | X | |
+| Different modes of events propagation | X | |
+
+#### Note from the author
+
+> Few years ago, whenever I needed async tools in PHP, I was actively using other, hugely popular php library called React. Back then it was mind-blowing experience for me and I was astonished how easy it was to simulate async behaviour in PHP. I started to trust this aproach more and more and began to use it in more complicated projects. However, the bigger the project I was working on was, the more defects I was able to find. Its code, in my experience, suffered from uneven performance, leaking memory, the occasional bugs and what had upset me most - lacking interfaces which focused only on async side of things, ignoring functionality of its components as a whole. I started to write my own extensions for the library, including missing boilerplate and fixes needed. I wanted to share that with the community, created PRs with some of them, but they were never approved or rejected. React project was dead at that time, but in fact, I still needed those tools. That prompted me to create Dazzle Project. It was designed as modern, more reliable and more complete replacement for React library. Although I hold React library dear to my heart up to this day, I believe I was able to achieve that goal perfectly. Since the first day Dazzle was published I received many requests to include comparisons and benchmarks that proves the previous statement. That's why this section has been attached to the READE. I hope the readers will be able to find all the necessary pieces of information they are looking for in it.
+
 ## Requirements
 
 Dazzle Event requires:
